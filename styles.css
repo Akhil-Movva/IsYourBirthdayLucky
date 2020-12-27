@@ -10,15 +10,16 @@ body{
 
 
 h1{
-    padding-left: 32rem;
-    padding-right: 34rem;
-    text-align: center;
+    
+    width: 600px;
+    margin: 0 auto;
 }
 
 header{
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: var(--blue);
-    color: var(--grey);
+    color: var(--silver);
+    
     
 }
 
@@ -56,7 +57,7 @@ img{
 #btn{
     display: block;
     margin: 1rem 2rem;
-    color: var(--);grey
+    color: var(--grey);
     background-color: var(--silver);
     border: 1px solid var(--grey);
 }
@@ -67,6 +68,10 @@ img{
     padding-left:2rem;
     color: var(--grey);
     
-    
+   }
 
-}
+   #graphics{
+    display: flex;
+   
+    
+   }

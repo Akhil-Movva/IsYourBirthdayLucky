@@ -19,14 +19,12 @@ header{
     padding: 2rem 0;
     background-color: var(--blue);
     color: var(--silver);
-    
-    
+     
 }
 
 img{
     width: 450px;
-    
-    
+      
 }
 
 .container-flex{
@@ -42,8 +40,7 @@ img{
      padding-top: 5rem;
      width: 500px;
      color: var(--grey);
-     
-     
+         
 }
 
 .input{
@@ -51,9 +48,7 @@ img{
     width: 60%;
     margin: 2rem auto 1rem auto;
 
-    
-
-}
+   }
 #btn{
     display: block;
     margin: 1rem 2rem;
@@ -72,6 +67,11 @@ img{
 
    #graphics{
     display: flex;
-   
-    
+       
    }
+
+   .list{
+       list-style: none;
+   }
+
+   

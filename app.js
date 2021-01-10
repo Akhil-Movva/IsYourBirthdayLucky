@@ -1,9 +1,11 @@
 var date = document.querySelector("#date");
 var number = document.querySelector("#number");
 var btn = document.querySelector("#btn");
+var form=document.querySelector("#form");
 
 
-function clickHandler() {
+function clickHandler(event) {
+  event.preventDefault();
   var dob = date.value;
   dob = Number(dob.slice(8, dob.length));
   var num = number.value;
@@ -43,4 +45,4 @@ function clickHandler() {
 
 }
 
-btn.addEventListener("click", clickHandler);
+form.addEventListener("submit", clickHandler);

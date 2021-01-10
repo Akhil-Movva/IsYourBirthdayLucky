@@ -11,67 +11,72 @@ body{
 
 h1{
     
-    width: 600px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 header{
-    padding: 2rem 0;
+    padding: 2vw 0;
     background-color: var(--blue);
     color: var(--silver);
      
 }
 
 img{
-    width: 450px;
-      
+   width:100%;
+   height: auto; 
+}
+#img{
+   width:40%;
 }
 
 .container-flex{
     display: flex;
     flex-direction: row;
     background-color: var(--silver);
+    padding-top: 5vw;
      
 }
 
 .container-input{
-
-     padding-left: 2rem;
-     padding-top: 5rem;
-     width: 500px;
+    
+     padding-left: 2vw;
+     padding-right:2vw;
      color: var(--grey);
          
 }
 
-.input{
 
-    width: 60%;
-    margin: 2rem auto 1rem auto;
-
-   }
 #btn{
     display: block;
-    margin: 1rem 2rem;
+    margin: 1vw 2vw;
     color: var(--grey);
     background-color: var(--silver);
     border: 1px solid var(--grey);
 }
 
 .container-info{
-    width: 350px;
-    padding-top: 5rem;
-    padding-left:2rem;
+    width:40%;
+    padding-left:2vw;
     color: var(--grey);
     
    }
 
    #graphics{
     display: flex;
+    width:100%;
        
    }
 
    .list{
        list-style: none;
+   }
+
+   #date{
+       width:80%;
+   }
+
+   #number{
+       width:80%;
    }
 
    

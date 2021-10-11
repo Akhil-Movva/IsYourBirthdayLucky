@@ -20,8 +20,8 @@ function clickHandler(event) {
     dob = Math.floor(dob / 10);
   }
   luckyImg = document.createElement("img");
-  luckyImg.style.height = "200px";
-  luckyImg.style.width = "400px";
+  luckyImg.style.height = "150px";
+  luckyImg.style.width = "300px";
   luckyImg.style.margin = "auto";
   document.getElementById("graphics").appendChild(luckyImg);
 

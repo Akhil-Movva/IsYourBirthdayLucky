@@ -41,7 +41,8 @@ function clickHandler(event) {
   text.style.fontSize = "2rem";
   text.style.color = "#1F2937";
 
-  form.removeEventListener("submit", clickHandler);
+  //form.removeEventListener("submit", clickHandler);
+  btn.disabled=true;
 
 }
 

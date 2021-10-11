@@ -41,7 +41,7 @@ function clickHandler(event) {
   text.style.fontSize = "2rem";
   text.style.color = "#1F2937";
 
-  btn.removeEventListener("click", clickHandler);
+  form.removeEventListener("submit", clickHandler);
 
 }
 
